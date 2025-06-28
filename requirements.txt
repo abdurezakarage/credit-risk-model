@@ -27,6 +27,7 @@ statsmodels>=0.13.0
 
 # Data preprocessing
 category-encoders>=2.3.0
+xverse>=0.2.0
 
 # Model validation and testing
 pytest>=6.0.0

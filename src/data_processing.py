@@ -113,15 +113,7 @@ class DataProcessor:
         return True
 
     def clean_and_save_data(self, output_filename="cleaned-data.csv"):
-        """
-        Clean data by removing outliers (Z-score > 3) and save to CSV file.
-        
-        Args:
-            output_filename (str): Name of the output CSV file. Default is "cleaned-data.csv"
-        
-        Returns:
-            bool: True if successful, False otherwise
-        """
+       
         if self.df is None:
             print("Error: DataFrame not loaded. Call load_data() first.")
             return False

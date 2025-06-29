@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/AI/Week-5/Week%205%20Project/credit-risk-model/notebooks/mlruns/577874245863277567/957c003e518d4fd29ae26525e05eb24d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '577874245863277567'
+lifecycle_stage: active
+run_id: 957c003e518d4fd29ae26525e05eb24d
+run_name: random_forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751188927019
+status: 1
+tags: []
+user_id: op

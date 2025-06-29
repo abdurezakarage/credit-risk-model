@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/AI/Week-5/Week%205%20Project/credit-risk-model/notebooks/mlruns/633064636073278672/f5260ac2421e48c0b6da4155a32e2685/artifacts
+end_time: 1751222492687
+entry_point_name: ''
+experiment_id: '633064636073278672'
+lifecycle_stage: active
+run_id: f5260ac2421e48c0b6da4155a32e2685
+run_name: logistic_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751222313773
+status: 3
+tags: []
+user_id: op

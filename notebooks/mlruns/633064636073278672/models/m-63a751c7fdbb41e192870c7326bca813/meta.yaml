@@ -1,0 +1,10 @@
+artifact_location: file:///e:/AI/Week-5/Week%205%20Project/credit-risk-model/notebooks/mlruns/633064636073278672/models/m-63a751c7fdbb41e192870c7326bca813/artifacts
+creation_timestamp: 1751223650448
+experiment_id: '633064636073278672'
+last_updated_timestamp: 1751223771009
+model_id: m-63a751c7fdbb41e192870c7326bca813
+model_type: null
+name: logistic_regression_model
+source_run_id: 655f960eceb340fead00cb5b8907c0b9
+status: 2
+status_message: null

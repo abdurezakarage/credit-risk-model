@@ -1,11 +1,13 @@
 from fastapi import FastAPI
 from src.api.pydantic_models import CustomerFeatures, PredictionResponse
 import mlflow.pyfunc
+import os
 
 app = FastAPI()
 
-# Load the model from MLflow registry
-model = mlflow.pyfunc.load_model(model_uri="models:/CreditRiskModel/Production")
+# Load the model directly from the local path
+model_path = "mlruns/577874245863277567/models/m-21c13abd7e494faca23715f51025316c/artifacts"
+model = mlflow.pyfunc.load_model(model_uri=f"file://{os.path.abspath(model_path)}")
 
 @app.post("/predict", response_model=PredictionResponse)
 def predict(features: CustomerFeatures):

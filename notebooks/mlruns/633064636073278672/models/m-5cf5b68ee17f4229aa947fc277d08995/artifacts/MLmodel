@@ -1,0 +1,22 @@
+artifact_path: file:///e:/AI/Week-5/Week%205%20Project/credit-risk-model/notebooks/mlruns/633064636073278672/models/m-5cf5b68ee17f4229aa947fc277d08995/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.1
+model_id: m-5cf5b68ee17f4229aa947fc277d08995
+model_size_bytes: 1985734
+model_uuid: m-5cf5b68ee17f4229aa947fc277d08995
+prompts: null
+run_id: 274a90d405464027877d4ad46428f330
+utc_time_created: '2025-06-29 19:10:01.624618'

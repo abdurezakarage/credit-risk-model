@@ -31,4 +31,5 @@ xverse>=0.2.0
 
 # Model validation and testing
 pytest>=6.0.0
+mlflow>=1.0.0
 

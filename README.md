@@ -1,14 +1,28 @@
 # Credit Risk Model
 
 ## Project Structure
-
 ```
 credit-risk-model/
-├── data/           # Dataset files
+├── data/           
+│   ├── raw/       
+│   └── processed/
 ├── notebooks/      # Jupyter notebooks
+│   ├── eda.ipynb           # Exploratory Data Analysis
+│   ├── feature.ipynb       # Feature Engineering
+│   ├── proxy.ipynb         # Proxy Target Variable Analysis
+│   ├── train.ipynb         # Model Training
+│   └── mlruns/             # MLflow experiment tracking
 ├── src/           # Source code
+│   ├── __init__.py
+│   ├── data_processing.py      # Data preprocessing utilities
+│   ├── feature_engineerig.py   # Feature engineering functions
+│   ├── proxy_target_variable.py # Proxy variable creation
+│   └── train.py                # Model training pipeline
 ├── tests/         # Test files
+│   └── __init__.py
 ├── venv/          # Virtual environment
+├── .github/       # GitHub workflows and configurations
+├── .gitignore     # Git ignore rules
 ├── requirements.txt
 └── README.md
 ```
